@@ -1,0 +1,48 @@
+/* Toolbar.css */
+.toolbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424; /* Add your desired background color */
+    padding: 10px;
+    margin-bottom: 0%;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tab-content {
+    width: 100%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555; /* Change the background color on hover */
+  }
+
+  .toolbar-image {
+    /* Set the width you want for the images */
+     /* Adjust this value to scale the images as needed */
+    /* The height will adjust automatically to maintain the aspect ratio */
+    object-fit: contain; /* Adjust this property to control how the image fits within the container */
+    /* For example, use 'cover' to fill the container, or 'contain' to fit inside */
+  }

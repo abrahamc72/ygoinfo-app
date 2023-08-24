@@ -1,0 +1,25 @@
+/* Change the scrollbar track color */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Change the scrollbar thumb color */
+  ::-webkit-scrollbar-thumb {
+    background: #141414;
+    border-radius: 5px;
+  }
+  
+  
+  /* Change the scrollbar track color for Firefox */
+  /* Note: Firefox uses a different pseudo-element for scrollbar styling */
+  /* Make sure to also include the standard scrollbar styling for compatibility */
+  /* For cross-browser compatibility, use the scrollbar-width property */
+  /* and set it to 'thin', 'auto', or 'none' as needed */
+  /* For example, 'scrollbar-width: thin;' will apply only when scrollbar is visible */
+  /* 'scrollbar-width: auto;' will show the scrollbar as needed */
+  /* 'scrollbar-width: none;' will hide the scrollbar completely */
+  /* Learn more about scrollbar-width: https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width */
+  html {
+    scrollbar-color: #121212 transparent; /* thumb and track color */
+    scrollbar-width: thin; /* scrollbar width */
+  }

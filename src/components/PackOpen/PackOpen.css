@@ -1,0 +1,26 @@
+.opened-pack {
+    display: flex;
+    overflow-x: auto; /* Add horizontal scroll if the cards exceed container width */
+  }
+  
+  .pack-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .higher-quality {
+    border-color: gold;
+  }
+  
+  .pack-card img {
+    max-width: 100px; /* Adjust the image width as needed */
+    height: auto;
+  }
+  
+  /* Add more styles as needed */

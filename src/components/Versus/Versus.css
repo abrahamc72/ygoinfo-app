@@ -1,0 +1,57 @@
+.versus-container {
+  background-color: #121212;
+  color: white;
+  height: 800px;
+}
+
+.game-over {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.versus-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.card-container1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.card-container1:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 3px black;
+}
+
+.cards-container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-primary {
+  background-color: #404040; /* Set the primary button color (blue) */
+  color: white;
+}
+
+.button-outline-primary {
+  background-color: #b1b1b1;
+  border: 1px solid #000000; /* Set the outline button color (blue) */
+  color: #000000;
+}
+
+.button-primary:hover,
+.button-outline-primary:hover {
+  background-color: #3d3c3c; /* Set the hover color for buttons */
+}
