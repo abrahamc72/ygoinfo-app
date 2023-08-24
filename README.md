@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project was created with the intention of learning react.
+
 # Current Modules
 
 ## CardList
