@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ygoinfo-app/static/css/main.f652fc75.css",
+    "main.js": "/ygoinfo-app/static/js/main.1f726c4c.js",
+    "static/js/787.97dfa878.chunk.js": "/ygoinfo-app/static/js/787.97dfa878.chunk.js",
+    "static/media/ygologo.png": "/ygoinfo-app/static/media/ygologo.0224f3a464280ede8f35.png",
+    "static/media/reacttran.png": "/ygoinfo-app/static/media/reacttran.e71f4c5b0c4306d65355.png",
+    "index.html": "/ygoinfo-app/index.html",
+    "main.f652fc75.css.map": "/ygoinfo-app/static/css/main.f652fc75.css.map",
+    "main.1f726c4c.js.map": "/ygoinfo-app/static/js/main.1f726c4c.js.map",
+    "787.97dfa878.chunk.js.map": "/ygoinfo-app/static/js/787.97dfa878.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f652fc75.css",
+    "static/js/main.1f726c4c.js"
+  ]
+}
