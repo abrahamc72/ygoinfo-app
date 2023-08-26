@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/ygoinfo-app/static/css/main.f652fc75.css",
-    "main.js": "/ygoinfo-app/static/js/main.1f726c4c.js",
+    "main.css": "/ygoinfo-app/static/css/main.f06c0395.css",
+    "main.js": "/ygoinfo-app/static/js/main.1ada53da.js",
     "static/js/787.97dfa878.chunk.js": "/ygoinfo-app/static/js/787.97dfa878.chunk.js",
+    "static/media/cardlistimg.PNG": "/ygoinfo-app/static/media/cardlistimg.ecb9e2b12695e3b7dbe0.PNG",
     "static/media/ygologo.png": "/ygoinfo-app/static/media/ygologo.0224f3a464280ede8f35.png",
+    "static/media/versusimg.PNG": "/ygoinfo-app/static/media/versusimg.c18b372b2285a5472a38.PNG",
+    "static/media/packopenimg.PNG": "/ygoinfo-app/static/media/packopenimg.24bb1be9b631a6785261.PNG",
+    "static/media/aboutimg.jpg": "/ygoinfo-app/static/media/aboutimg.2e2dd122e58a9c64a892.jpg",
     "static/media/reacttran.png": "/ygoinfo-app/static/media/reacttran.e71f4c5b0c4306d65355.png",
     "index.html": "/ygoinfo-app/index.html",
-    "main.f652fc75.css.map": "/ygoinfo-app/static/css/main.f652fc75.css.map",
-    "main.1f726c4c.js.map": "/ygoinfo-app/static/js/main.1f726c4c.js.map",
+    "main.f06c0395.css.map": "/ygoinfo-app/static/css/main.f06c0395.css.map",
+    "main.1ada53da.js.map": "/ygoinfo-app/static/js/main.1ada53da.js.map",
     "787.97dfa878.chunk.js.map": "/ygoinfo-app/static/js/787.97dfa878.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f652fc75.css",
-    "static/js/main.1f726c4c.js"
+    "static/css/main.f06c0395.css",
+    "static/js/main.1ada53da.js"
   ]
 }
