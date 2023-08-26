@@ -51,19 +51,19 @@
 }
 
 .btn-primary {
-    background-color: #404040; /* Set the primary button color (blue) */
+    background-color: #404040; 
     color: white;
   }
   
   .btn-outline-primary {
     background-color: #b1b1b1;
-    border: 1px solid #000000; /* Set the outline button color (blue) */
+    border: 1px solid #000000; 
     color: #000000;
   }
   
   .btn-primary:hover,
   .btn-outline-primary:hover {
-    background-color: #3d3c3c; /* Set the hover color for buttons */
+    background-color: #3d3c3c; 
   }
 
   .lighter-button {
@@ -80,7 +80,7 @@
     background-color: #1c1c1c;
   }
 
-  /* Add styles for card popup */
+ 
 .card-popup-overlay {
     position: fixed;
     top: 0;
@@ -95,7 +95,7 @@
   }
   
   .card-popup {
-    background-color: #121212;
+    background-color: #585858;
     color:white;
     border-radius: 8px;
     border-width:55px;

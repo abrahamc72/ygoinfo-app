@@ -13,17 +13,17 @@ const Versus = () => {
   
 
   useEffect(() => {
-    // Load the high score from local storage on component mount
+    
     const savedHighScore = parseInt(localStorage.getItem('highScore')) || 0;
     setHighScore(savedHighScore);
 
-    // Start the game by initializing the first question
+    
     if (cardsData && cardsData.length > 0) {
       setRandomQuestion();
     }
   }, [cardsData]);
 
-  // Helper function to select a random card with "Monster" in its type attribute
+  
   const getRandomMonsterCard = () => {
     const monsterCards = cardsData.filter(
       (card) => card.type?.includes('Monster') && card.card_images && card.card_images.length > 0
@@ -31,17 +31,17 @@ const Versus = () => {
     return monsterCards[Math.floor(Math.random() * monsterCards.length)];
   };
 
-  // Helper function to check if either card has "Link" in its type attribute
+  
   const hasLinkCard = (card1, card2) => {
     return card1.type?.includes('Link') || card2.type?.includes('Link');
   };
 
-  // Helper function to select a new random question and cards
+ 
   const setRandomQuestion = () => {
     const card1 = getRandomMonsterCard();
     let card2;
 
-    // Ensure card2 is different from card1
+   
     do {
       card2 = getRandomMonsterCard();
     } while (card2 === card1);
@@ -81,7 +81,7 @@ const Versus = () => {
   const playAgain = () => {
     setGameOver(false);
     setPlayerPoints(0);
-    setWrongAnswer(null); // Reset wrong answer state
+    setWrongAnswer(null); 
     setRandomQuestion();
   };
 

@@ -10,7 +10,7 @@ const GameOverModal = ({ isOpen, playerPoints, highScore, playAgain, onClose, wr
 
   const [showCardPopup, setShowCardPopup] = useState(null);
 
-  // Determine the lower and higher value cards
+ 
   let lowerValueCard, higherValueCard;
   if (questionType === 'ATK') {
     lowerValueCard = card1.atk < card2.atk ? card1 : card2;
@@ -63,7 +63,7 @@ const GameOverModal = ({ isOpen, playerPoints, highScore, playAgain, onClose, wr
           </div>
         </div>
 
-        {/* Card Popup */}
+        
         {showCardPopup && (
           <div className="card-popup-overlay" onClick={() => setShowCardPopup(null)}>
             <div className="card-popup">

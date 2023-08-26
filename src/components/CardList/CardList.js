@@ -4,7 +4,7 @@ import { useCardContext } from '../../CardContext';
 const CardList = () => {
   const { cardsData } = useCardContext();
   const [currentPage, setCurrentPage] = useState(1);
-  const [cardsPerPage] = useState(24);
+  const [cardsPerPage] = useState(27);
   const [searchTerm, setSearchTerm] = useState('');
   const [showFilterModal, setShowFilterModal] = useState(false);
   const [selectedType, setSelectedType] = useState(''); // Possible values: '', 'Monster', 'Spell', 'Trap'
@@ -15,7 +15,7 @@ const CardList = () => {
   // Calculate the number of columns based on the available width
   const calculateColumns = () => {
     const availableWidth = window.innerWidth * 0.75 - 40; // Half of the available window width with 40px padding
-    const maxColumns = 10;
+    const maxColumns = 9;
     return Math.min(maxColumns, Math.floor(availableWidth / 150)); // Adjust the cell width as needed
   };
 
@@ -121,7 +121,7 @@ const CardList = () => {
     };
   }, []);
   useEffect(() => {
-    setCurrentPage(1); // Reset currentPage to 1 whenever the filter criteria change
+    setCurrentPage(1);
   }, [selectedType, selectedSetName]);
 
   const calculatePaginationRange = () => {
@@ -158,7 +158,7 @@ const CardList = () => {
         style={{
           width: '100%',
           marginTop: '10%',
-          paddingTop: '100%', // Set the aspect ratio (height/width) to 100% / (1/aspectRatio), e.g., 130% for 1.3 aspect ratio
+          paddingTop: '100%', 
           position: 'relative',
           overflow: 'hidden',
         }}
@@ -209,7 +209,7 @@ const CardList = () => {
           >
             Next
           </button>
-          {/* Filter Button */}
+         
         <button className="button" onClick={handleFilterButtonClick}>
           Filter
         </button>
@@ -254,7 +254,7 @@ const CardList = () => {
                   <h3>{hoveredCard.name}</h3>
                   <p>Card Type: {hoveredCard.type}</p>
                   <p>Type: {hoveredCard.race}</p>
-                  {/* Add other card info you want to display */}
+                 
                 </div>
               )}
             </div>
@@ -286,7 +286,7 @@ const CardList = () => {
                 <div className="filter-form-group">
                   <label htmlFor="setNameFilter">Filter by Set Name:</label>
                   <select id="setNameFilter" value={selectedSetName} onChange={handleSetNameFilterChange}>
-                    <option key="" value="">All</option> {/* Add a default empty option with an empty key */}
+                    <option key="" value="">All</option> 
                     {cardsData?.length > 0 &&
                       Array.from(new Set(cardsData.flatMap((card) => card.card_sets?.map((set) => set.set_name)))).map(
                         (setName) => (
